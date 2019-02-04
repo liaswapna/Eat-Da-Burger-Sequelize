@@ -1,0 +1,10 @@
+<tr>
+    <td>{{burger_name}}</td>
+    {{#if devour}}
+    <td><input id="customerName" placeholder="John Doe"></td>
+    <td> <button data-input="customerName" id="devour" class="devour-btn btn-warning" data-id={{id}}>Devour</button></td>
+    <td><button class="delete-btn btn-warning" data-id={{id}}>Delete</button></td>
+    {{else}}
+    <td><p>eaten by {{'Customer.customer_name'}}</p><button class="delete-btn btn-warning" data-id={{id}}>Delete</button></td>
+    {{/if}}
+</tr>
