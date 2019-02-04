@@ -2,13 +2,15 @@
 
 ### Overview
 ---
-It is a restaurant app that lets users input the names of burgers they'd like to eat.
+It is a restaurant app that lets customers input the names of burgers they'd like to eat and also their names with the devoured burgers.
 
-Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured.
+Whenever a customer submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured.
 
-Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
+Each burger in the waiting area also has a `Devour` button. Customer can enter their names. When the customer clicks it, the burger will move to the right side of the page along with their name.
 
 The app will store every burger in a database, whether devoured or not.
+
+The app uses sequelize joins to get the datas from different tables.
 
 ### Getting Started
 ---
