@@ -1,7 +1,6 @@
 const express = require('express')
 const exphbs  = require('express-handlebars');
 var db = require("./models");
-// const routes = require('./controllers/burgers_controller');
 const app = express()
 const PORT = process.env.PORT || 3000
 
@@ -16,8 +15,7 @@ app.use(express.json())
 app.engine("handlebars",exphbs({defaultLayout: "main"}))
 app.set("view engine","handlebars")
 
-// console.log(db)
-// connection to burger-api-routes
+// connection to api-routes
 require('./routes/burger-api-routes')(app)
 require('./routes/customer-api-routes')(app)
 
