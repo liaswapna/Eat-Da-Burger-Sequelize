@@ -47,4 +47,4 @@ The app uses sequelize joins to get the datas from different tables.
 ### Demos
 ---
 * Eat-Da-Burger-App
-    * [Heroku Link](https://eat-da-burger-s.herokuapp.com/)
+    * [Heroku Link](https://eat-the-burger-sequelize.herokuapp.com/)
