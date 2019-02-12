@@ -2,15 +2,15 @@
 
 ### Overview
 ---
-It is a restaurant app that lets customers input the names of burgers they'd like to eat and also their names with the devoured burgers.
+*   It is a restaurant app that lets customers input the names of burgers they'd like to eat and also their names with the devoured burgers.
 
-Whenever a customer submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured.
+* Whenever a customer submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured.
 
-Each burger in the waiting area also has a `Devour` button. Customer can enter their names. When the customer clicks it, the burger will move to the right side of the page along with their name.
+* Each burger in the waiting area also has a `Devour` button. Customer can enter their names. When the customer clicks it, the burger will move to the right side of the page along with their name.
 
-The app will store every burger in a database, whether devoured or not.
+* The app will store every burger in a database, whether devoured or not.
 
-The app uses sequelize joins to get the datas from different tables.
+* The app uses sequelize joins to get the datas from different tables.
 
 ### Getting Started
 ---
@@ -48,3 +48,9 @@ The app uses sequelize joins to get the datas from different tables.
 ---
 * Eat-Da-Burger-App
     * [Heroku Link](https://eat-the-burger-sequelize.herokuapp.com/)
+
+### Screenshots
+---
+* #### Heroku deployed App View
+    * Order-burger adds the burger into the database and devour button helps to devour it. The name field helps to add the name of the person who devoured the burger and is displayed on the right side along with the name. Delete button deletes the burger.
+    ![App](./public/assets/img/burger-app.png)
