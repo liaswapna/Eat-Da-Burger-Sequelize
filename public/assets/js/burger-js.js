@@ -23,6 +23,7 @@ $(function () {
         console.log(input)
         // var name = $(`${input}`).val().trim()
         console.log($("#customerName"))
+        console.log($('input:textbox').val())
         var name = $("#customerName").val().trim()
         console.log(name)
         if(name === ''){
