@@ -21,7 +21,7 @@ $(function () {
         e.preventDefault()
         var input = "#"+ $(this).data("input");
         console.log(input)
-        console.log(document.getElementById(`${input}`).value)
+        console.log(document.getElementById(input).value)
         // var name = $(`${input}`).val().trim()
         console.log($("#customerName"))
         console.log($('input:textbox').val())
