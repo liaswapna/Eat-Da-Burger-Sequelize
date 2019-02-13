@@ -24,7 +24,8 @@ $(function () {
         console.log(document.getElementById(input).value)
         // var name = $(`${input}`).val().trim()
         console.log($("#customerName"))
-        console.log($('input:textbox').val())
+        console.log($("#customerName").val())
+        // console.log($('input:textbox').val())
         var name = $("#customerName").val().trim()
         console.log(name)
         if(name === ''){
