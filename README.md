@@ -52,5 +52,5 @@
 ### Screenshots
 ---
 * #### Heroku deployed App View
-    * Order-burger adds the burger into the database and devour button helps to devour it. The name field helps to add the name of the person who devoured the burger and is displayed on the right side along with the name. Delete button deletes the burger.
+    * Order-burger button adds the burger into the database and devour button helps to devour it. The name field helps to add the name of the person who devoured the burger and is displayed on the right side along with the name. Delete button deletes the burger.
     ![App](./public/assets/img/burger-app.png)

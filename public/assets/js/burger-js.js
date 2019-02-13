@@ -28,10 +28,12 @@ $(function () {
             customer_name: name,
             BurgerId: $(this).data('id')
         }
+        console.log(customer)
         let burger = {
             id: $(this).data('id'),
             devoured: true
         }
+        console.log(burger)
         $.ajax('/api/burger',{
             type:"PUT",
             data: burger
