@@ -20,10 +20,10 @@ $(function () {
     $(document).on("click", ".devour-btn", function(){
     // $('.devour-btn').on("click",function(e){
         // e.preventDefault()
-        console.log($(this))
-        var input = "."+ $(this).data("input");
+        // console.log($(this))
+        var input = "#"+ $(this).data("input");
         console.log(input)
-        console.log($(".customerNameClass").val().trim())
+        // console.log($(".customerNameClass").val().trim())
         console.log($(input).val().trim())
         var name = $("#customerName").val().trim()
         console.log(name)
