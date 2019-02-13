@@ -21,6 +21,7 @@ $(function () {
         e.preventDefault()
         var input = "#"+ $(this).data("input");
         var name = $(input).val().trim()
+        console.log(name)
         if(name === ''){
             name = "NO_NAME"
         }
@@ -43,7 +44,7 @@ $(function () {
                 data: customer
             }).then(function(){
             console.log('burger updated!!')
-            location.reload()
+            // location.reload()
         })
         })
     })
