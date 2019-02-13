@@ -25,7 +25,7 @@ $(function () {
         console.log(input)
         // console.log($(".customerNameClass").val().trim())
         console.log($(input).val().trim())
-        var name = $("#customerName").val().trim()
+        var name = $(input).val().trim()
         console.log(name)
         if(name === ''){
             name = "NO_NAME"
