@@ -17,17 +17,12 @@ $(function () {
         })
     })
 
-    $('.devour-btn').on("click",function(e){
+    $(document).on("click", ".devour-btn", function(){
+    // $('.devour-btn').on("click",function(e){
         e.preventDefault()
         var input = "."+ $(this).data("input");
         console.log(input)
-        console.log(document.getElementById("customerNameClass").value)
-        // var name = $(`${input}`).val().trim()
-        // console.log($("#customerName"))
-        console.log($(this).val())
-        console.log($(".customerNameClass").val())
-        // console.log($('input:textbox').val())
-        console.log($(tr).find('.customerNameClass').val());
+        console.log($(".customerNameClass").val().trim())
         var name = $("#customerName").val().trim()
         console.log(name)
         if(name === ''){
