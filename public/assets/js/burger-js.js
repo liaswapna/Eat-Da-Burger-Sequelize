@@ -20,6 +20,7 @@ $(function () {
     $('.devour-btn').on("click",function(e){
         e.preventDefault()
         var input = "#"+ $(this).data("input");
+        console.log(input)
         var name = $(input).val().trim()
         console.log(name)
         if(name === ''){
