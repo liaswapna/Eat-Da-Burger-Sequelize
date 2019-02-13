@@ -2,7 +2,7 @@
     <td>{{burger_name}}</td>
     {{#if devour}}
     <td><input type="text" class="customerNameClass" id="customerName" name="customer" placeholder="Enter Your Name"></td>
-    <td> <button data-input="customerName" id="devour" class="devour-btn btn-warning" data-id={{id}}>Devour</button></td>
+    <td> <button data-input="customerNameClass" id="devour" class="devour-btn btn-warning" data-id={{id}}>Devour</button></td>
     <td><button class="delete-btn btn-warning" data-id={{id}}>Delete</button></td>
     {{else}}
     <td><p>eaten by {{'Customer.customer_name'}}</p></td>
