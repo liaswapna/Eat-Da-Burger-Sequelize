@@ -18,15 +18,9 @@ $(function () {
     })
 
     $(document).on("click", ".devour-btn", function(){
-    // $('.devour-btn').on("click",function(e){
-        // e.preventDefault()
-        // console.log($(this))
+    
         var input = "#"+ $(this).data("input");
-        console.log(input)
-        // console.log($(".customerNameClass").val().trim())
-        console.log($(input).val().trim())
         var name = $(input).val().trim()
-        console.log(name)
         if(name === ''){
             name = "NO_NAME"
         }
@@ -49,7 +43,7 @@ $(function () {
                 data: customer
             }).then(function(){
             console.log('burger updated!!')
-            // location.reload()
+            location.reload()
         })
         })
     })
