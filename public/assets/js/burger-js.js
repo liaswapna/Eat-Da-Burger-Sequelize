@@ -22,6 +22,7 @@ $(function () {
         var input = "#"+ $(this).data("input");
         console.log(input)
         // var name = $(`${input}`).val().trim()
+        console.log($("#customerName"))
         var name = $("#customerName").val().trim()
         console.log(name)
         if(name === ''){
