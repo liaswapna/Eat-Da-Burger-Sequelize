@@ -21,7 +21,7 @@ $(function () {
         e.preventDefault()
         var input = "#"+ $(this).data("input");
         console.log(input)
-        var name = $(input).val().trim()
+        var name = $(`${input}`).val().trim()
         console.log(name)
         if(name === ''){
             name = "NO_NAME"
